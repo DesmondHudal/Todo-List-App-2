@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>My Todo List</h1>
+        <h1>My First Todo List App Project</h1>
       </header>
       <Form todos={todos} inputText={inputText} setTodos={setTodos} setInputText={setInputText}/>
       <TodoList setTodos={setTodos} todos={todos} />
